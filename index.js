@@ -240,7 +240,8 @@ class SamsungCloudServices {
         const groupElement = document.getElementById(`group-${this.sanitizeId(groupTitle)}`);
         if (groupElement) {
             // Scroll to the group with offset for fixed header
-            const headerHeight = 80;
+            // const headerHeight = 80;
+            const headerHeight = 0; // removed header
             const elementTop = groupElement.offsetTop - headerHeight - 20;
 
             window.scrollTo({

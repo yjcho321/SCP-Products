@@ -272,7 +272,7 @@ body {
 }
 
 /* Fix 1: Match header height with sidebar header */
-.header {
+/* .header {
     background: var(--bg-primary);
     padding: var(--spacing-lg) var(--spacing-2xl);
     border-bottom: 1px solid var(--border-color);
@@ -298,7 +298,7 @@ body {
     color: var(--text-secondary);
     font-size: 0.875rem;
     font-weight: 400;
-}
+} */
 
 .content-wrapper {
     flex: 1;
